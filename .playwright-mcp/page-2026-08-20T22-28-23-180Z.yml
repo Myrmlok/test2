@@ -1,0 +1,93 @@
+- generic [ref=f4e2]:
+  - generic [ref=f4e3]:
+    - banner [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - link "4BOR/ КЛУБ" [ref=f4e6] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=f4e7]:
+          - link "Каталог" [ref=f4e8] [cursor=pointer]:
+            - /url: /catalog
+          - link "Аукционы" [ref=f4e9] [cursor=pointer]:
+            - /url: /auctions
+          - link "Эксклюзивы" [ref=f4e10] [cursor=pointer]:
+            - /url: /exclusives
+          - link "Ликвидация" [ref=f4e11] [cursor=pointer]:
+            - /url: /liquidation
+          - link "Стикеры" [ref=f4e12] [cursor=pointer]:
+            - /url: /stickers
+          - link "Новости" [ref=f4e13] [cursor=pointer]:
+            - /url: /news
+          - link "Форум" [ref=f4e14] [cursor=pointer]:
+            - /url: /forum
+      - generic [ref=f4e15]:
+        - textbox "Поиск лотов..." [ref=f4e18]
+        - link [ref=f4e19] [cursor=pointer]:
+          - /url: /cart
+        - link "dealer_ivanov Дилер" [ref=f4e24] [cursor=pointer]:
+          - /url: /profile
+          - generic [ref=f4e25]:
+            - generic [ref=f4e26]: dealer_ivanov
+            - generic [ref=f4e27]: Дилер
+    - generic [ref=f4e32]:
+      - main [ref=f4e33]:
+        - generic [ref=f4e34]:
+          - paragraph [ref=f4e35]: Раздел не найден.
+          - button "На форум" [ref=f4e36]
+      - complementary [ref=f4e37]:
+        - generic [ref=f4e38]:
+          - generic [ref=f4e39]:
+            - heading "Сейчас в клубе" [level=3] [ref=f4e40]
+            - generic [ref=f4e41]: "24"
+          - generic [ref=f4e46]:
+            - heading "Время (МСК)" [level=3] [ref=f4e47]
+            - generic [ref=f4e51]: 01:28:22
+        - generic [ref=f4e52]:
+          - heading "Последняя активность" [level=3] [ref=f4e53]
+          - generic [ref=f4e56]:
+            - generic [ref=f4e57]:
+              - paragraph [ref=f4e58]: Дилер D*** сделал ставку на 5 копеек
+              - paragraph [ref=f4e59]: 2 мин назад
+            - generic [ref=f4e60]:
+              - paragraph [ref=f4e61]: Коллекционер K*** зарегистрировался
+              - paragraph [ref=f4e62]: 15 мин назад
+            - generic [ref=f4e63]:
+              - paragraph [ref=f4e64]: Новый лот в разделе Ликвидация
+              - paragraph [ref=f4e65]: 1 час назад
+            - generic [ref=f4e66]:
+              - paragraph [ref=f4e67]: Дилер A*** купил лот по блиц-цене
+              - paragraph [ref=f4e68]: 2 часа назад
+            - generic [ref=f4e69]:
+              - paragraph [ref=f4e70]: Добавлен новый стикер
+              - paragraph [ref=f4e71]: 3 часа назад
+        - generic [ref=f4e72]:
+          - generic [ref=f4e73]:
+            - heading "Стикеры" [level=3] [ref=f4e74]
+            - link "Все" [ref=f4e75] [cursor=pointer]:
+              - /url: /stickers
+          - generic [ref=f4e76]:
+            - generic [ref=f4e77]:
+              - img "Sticker" [ref=f4e79]
+              - generic [ref=f4e80]:
+                - paragraph [ref=f4e81]: Куплю чешую Михаила Федоровича
+                - generic [ref=f4e82]: от 5 000 ₽
+                - button "Предложить" [ref=f4e83]
+            - generic [ref=f4e84]:
+              - img "Sticker" [ref=f4e86]
+              - generic [ref=f4e87]:
+                - paragraph [ref=f4e88]: Ищу рубли Анны Иоанновны
+                - generic [ref=f4e89]: от 100 000 ₽
+                - button "Предложить" [ref=f4e90]
+            - generic [ref=f4e91]:
+              - img "Sticker" [ref=f4e93]
+              - generic [ref=f4e94]:
+                - paragraph [ref=f4e95]: Нужна пластика 14 века
+                - generic [ref=f4e96]: от 15 000 ₽
+                - button "Предложить" [ref=f4e97]
+            - generic [ref=f4e98]:
+              - img "Sticker" [ref=f4e100]
+              - generic [ref=f4e101]:
+                - paragraph [ref=f4e102]: Куплю редкие уделы Твери
+                - generic [ref=f4e103]: от 30 000 ₽
+                - button "Предложить" [ref=f4e104]
+  - region "Notifications (F8)":
+    - list

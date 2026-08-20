@@ -1,0 +1,6 @@
+[     559ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bc6e5e2c:17986
+[    1616ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/catalog/lots?section=auction&themeId=1&groupId=1-g1:0
+[    1632ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/auth/me:0
+[    3191ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/catalog/lots?section=auction&themeId=1&groupId=1-g1:0
+[    5586ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/catalog/lots?section=auction&themeId=1&groupId=1-g1:0
+[   10203ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/catalog/lots?section=auction&themeId=1&groupId=1-g1:0

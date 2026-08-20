@@ -1,0 +1,96 @@
+- generic [ref=f17e2]:
+  - generic [ref=f17e3]:
+    - banner [ref=f17e4]:
+      - generic [ref=f17e5]:
+        - link "4BOR/ КЛУБ" [ref=f17e6] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=f17e7]:
+          - link "Каталог" [ref=f17e8] [cursor=pointer]:
+            - /url: /catalog
+          - link "Аукционы" [ref=f17e9] [cursor=pointer]:
+            - /url: /auctions
+          - link "Эксклюзивы" [ref=f17e10] [cursor=pointer]:
+            - /url: /exclusives
+          - link "Ликвидация" [ref=f17e11] [cursor=pointer]:
+            - /url: /liquidation
+          - link "Стикеры" [ref=f17e12] [cursor=pointer]:
+            - /url: /stickers
+          - link "Новости" [ref=f17e13] [cursor=pointer]:
+            - /url: /news
+          - link "Форум" [ref=f17e14] [cursor=pointer]:
+            - /url: /forum
+      - generic [ref=f17e15]:
+        - textbox "Поиск лотов..." [ref=f17e18]
+        - link [ref=f17e19] [cursor=pointer]:
+          - /url: /cart
+        - link "Гость" [ref=f17e24] [cursor=pointer]:
+          - /url: /profile
+    - generic [ref=f17e31]:
+      - main [ref=f17e32]:
+        - generic [ref=f17e33]:
+          - generic [ref=f17e34]:
+            - generic [ref=f17e35]:
+              - heading "Форум клуба" [level=1] [ref=f17e36]
+              - paragraph [ref=f17e37]: Обсуждения, экспертиза и общение участников
+            - textbox "Поиск по темам..." [ref=f17e39]
+          - generic [ref=f17e40]:
+            - generic [ref=f17e41]: 0 тем
+            - generic [ref=f17e42]: 0 сообщений
+      - complementary [ref=f17e43]:
+        - generic [ref=f17e44]:
+          - generic [ref=f17e45]:
+            - heading "Сейчас в клубе" [level=3] [ref=f17e46]
+            - generic [ref=f17e47]: "24"
+          - generic [ref=f17e52]:
+            - heading "Время (МСК)" [level=3] [ref=f17e53]
+            - generic [ref=f17e57]: 01:14:50
+        - generic [ref=f17e58]:
+          - heading "Последняя активность" [level=3] [ref=f17e59]
+          - generic [ref=f17e62]:
+            - generic [ref=f17e63]:
+              - paragraph [ref=f17e64]: Дилер D*** сделал ставку на 5 копеек
+              - paragraph [ref=f17e65]: 2 мин назад
+            - generic [ref=f17e66]:
+              - paragraph [ref=f17e67]: Коллекционер K*** зарегистрировался
+              - paragraph [ref=f17e68]: 15 мин назад
+            - generic [ref=f17e69]:
+              - paragraph [ref=f17e70]: Новый лот в разделе Ликвидация
+              - paragraph [ref=f17e71]: 1 час назад
+            - generic [ref=f17e72]:
+              - paragraph [ref=f17e73]: Дилер A*** купил лот по блиц-цене
+              - paragraph [ref=f17e74]: 2 часа назад
+            - generic [ref=f17e75]:
+              - paragraph [ref=f17e76]: Добавлен новый стикер
+              - paragraph [ref=f17e77]: 3 часа назад
+        - generic [ref=f17e78]:
+          - generic [ref=f17e79]:
+            - heading "Стикеры" [level=3] [ref=f17e80]
+            - link "Все" [ref=f17e81] [cursor=pointer]:
+              - /url: /stickers
+          - generic [ref=f17e82]:
+            - generic [ref=f17e83]:
+              - img "Sticker" [ref=f17e85]
+              - generic [ref=f17e86]:
+                - paragraph [ref=f17e87]: Куплю чешую Михаила Федоровича
+                - generic [ref=f17e88]: от 5 000 ₽
+                - button "Предложить" [ref=f17e89]
+            - generic [ref=f17e90]:
+              - img "Sticker" [ref=f17e92]
+              - generic [ref=f17e93]:
+                - paragraph [ref=f17e94]: Ищу рубли Анны Иоанновны
+                - generic [ref=f17e95]: от 100 000 ₽
+                - button "Предложить" [ref=f17e96]
+            - generic [ref=f17e97]:
+              - img "Sticker" [ref=f17e99]
+              - generic [ref=f17e100]:
+                - paragraph [ref=f17e101]: Нужна пластика 14 века
+                - generic [ref=f17e102]: от 15 000 ₽
+                - button "Предложить" [ref=f17e103]
+            - generic [ref=f17e104]:
+              - img "Sticker" [ref=f17e106]
+              - generic [ref=f17e107]:
+                - paragraph [ref=f17e108]: Куплю редкие уделы Твери
+                - generic [ref=f17e109]: от 30 000 ₽
+                - button "Предложить" [ref=f17e110]
+  - region "Notifications (F8)":
+    - list

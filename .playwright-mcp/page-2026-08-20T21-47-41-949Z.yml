@@ -1,0 +1,138 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "4BOR/ КЛУБ" [ref=e6] [cursor=pointer]:
+          - /url: /Program%20Files/Git/
+        - navigation [ref=e7]:
+          - link "Каталог" [ref=e8] [cursor=pointer]:
+            - /url: /Program%20Files/Git/catalog
+          - link "Аукционы" [ref=e9] [cursor=pointer]:
+            - /url: /Program%20Files/Git/auctions
+          - link "Эксклюзивы" [ref=e10] [cursor=pointer]:
+            - /url: /Program%20Files/Git/exclusives
+          - link "Ликвидация" [ref=e11] [cursor=pointer]:
+            - /url: /Program%20Files/Git/liquidation
+          - link "Стикеры" [ref=e12] [cursor=pointer]:
+            - /url: /Program%20Files/Git/stickers
+          - link "Новости" [ref=e13] [cursor=pointer]:
+            - /url: /Program%20Files/Git/news
+          - link "Форум" [ref=e14] [cursor=pointer]:
+            - /url: /Program%20Files/Git/forum
+      - generic [ref=e15]:
+        - textbox "Поиск лотов..." [ref=e18]
+        - link [ref=e19] [cursor=pointer]:
+          - /url: /Program%20Files/Git/cart
+        - link "Гость" [ref=e24] [cursor=pointer]:
+          - /url: /Program%20Files/Git/profile
+    - main [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - heading "Добро пожаловать в Клуб" [level=1] [ref=e36]
+          - paragraph [ref=e37]: Закрытое пространство для дилеров и коллекционеров
+        - generic [ref=e38]:
+          - heading "Тематики" [level=2] [ref=e39]
+          - generic [ref=e40]:
+            - button [ref=e41]:
+              - img "Средневековые монеты" [ref=e43]
+              - heading "Средневековые монеты" [level=3] [ref=e45]
+            - button [ref=e46]:
+              - img "Уделы" [ref=e48]
+              - heading "Уделы" [level=3] [ref=e50]
+            - button [ref=e51]:
+              - img "Металлопластика" [ref=e53]
+              - heading "Металлопластика" [level=3] [ref=e55]
+            - button [ref=e56]:
+              - img "Российская Империя" [ref=e58]
+              - heading "Российская Империя" [level=3] [ref=e60]
+            - button [ref=e61]:
+              - img "Восток" [ref=e63]
+              - heading "Восток" [level=3] [ref=e65]
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - heading "Средневековые монеты" [level=2] [ref=e69]
+            - generic [ref=e70]:
+              - generic [ref=e72]:
+                - generic [ref=e73]: Группа 01
+                - generic [ref=e74]:
+                  - link "Аукционы от находчиков" [ref=e75] [cursor=pointer]:
+                    - /url: /Program%20Files/Git/catalog/1/groups/1-g1
+                  - link "Эксклюзивы от дилеров" [ref=e79] [cursor=pointer]:
+                    - /url: /Program%20Files/Git/catalog/1/groups/1-g1?section=exclusive
+                  - link "Ликвидация" [ref=e83] [cursor=pointer]:
+                    - /url: /Program%20Files/Git/catalog/1/groups/1-g1?section=liquidation
+              - generic [ref=e88]:
+                - generic [ref=e89]: Группа 02
+                - generic [ref=e90]:
+                  - link "Аукционы от находчиков" [ref=e91] [cursor=pointer]:
+                    - /url: /Program%20Files/Git/catalog/1/groups/1-g2
+                  - link "Эксклюзивы от дилеров" [ref=e95] [cursor=pointer]:
+                    - /url: /Program%20Files/Git/catalog/1/groups/1-g2?section=exclusive
+                  - link "Ликвидация" [ref=e99] [cursor=pointer]:
+                    - /url: /Program%20Files/Git/catalog/1/groups/1-g2?section=liquidation
+              - generic [ref=e104]:
+                - generic [ref=e105]: Группа 03
+                - generic [ref=e106]:
+                  - link "Аукционы от находчиков" [ref=e107] [cursor=pointer]:
+                    - /url: /Program%20Files/Git/catalog/1/groups/1-g3
+                  - link "Эксклюзивы от дилеров" [ref=e111] [cursor=pointer]:
+                    - /url: /Program%20Files/Git/catalog/1/groups/1-g3?section=exclusive
+                  - link "Ликвидация" [ref=e115] [cursor=pointer]:
+                    - /url: /Program%20Files/Git/catalog/1/groups/1-g3?section=liquidation
+              - generic [ref=e120]:
+                - generic [ref=e121]: Группа 04
+                - generic [ref=e122]:
+                  - link "Аукционы от находчиков" [ref=e123] [cursor=pointer]:
+                    - /url: /Program%20Files/Git/catalog/1/groups/1-g4
+                  - link "Эксклюзивы от дилеров" [ref=e127] [cursor=pointer]:
+                    - /url: /Program%20Files/Git/catalog/1/groups/1-g4?section=exclusive
+                  - link "Ликвидация" [ref=e131] [cursor=pointer]:
+                    - /url: /Program%20Files/Git/catalog/1/groups/1-g4?section=liquidation
+          - generic [ref=e135]:
+            - link "01 Аукционы" [ref=e136] [cursor=pointer]:
+              - /url: /Program%20Files/Git/auctions
+              - generic [ref=e137]: "01"
+              - generic [ref=e138]: Аукционы
+            - link "02 Эксклюзивы" [ref=e139] [cursor=pointer]:
+              - /url: /Program%20Files/Git/exclusives
+              - generic [ref=e140]: "02"
+              - generic [ref=e141]: Эксклюзивы
+            - link "03 Ликвидация" [ref=e142] [cursor=pointer]:
+              - /url: /Program%20Files/Git/liquidation
+              - generic [ref=e143]: "03"
+              - generic [ref=e144]: Ликвидация
+            - generic "В разработке" [ref=e145]:
+              - generic [ref=e146]: "04"
+              - generic [ref=e151]: Архив
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - heading "Новости клуба" [level=2] [ref=e154]
+            - link "Все новости" [ref=e155] [cursor=pointer]:
+              - /url: /Program%20Files/Git/news
+          - generic [ref=e156]:
+            - link "Итоги весеннего аукциона 10.05.2024 Итоги весеннего аукциона" [ref=e157] [cursor=pointer]:
+              - /url: /Program%20Files/Git/news/n1
+              - img "Итоги весеннего аукциона" [ref=e159]
+              - generic [ref=e160]:
+                - generic [ref=e161]: 10.05.2024
+                - heading "Итоги весеннего аукциона" [level=3] [ref=e162]
+            - link "Новые поступления в разделе Империя 08.05.2024 Новые поступления в разделе Империя" [ref=e163] [cursor=pointer]:
+              - /url: /Program%20Files/Git/news/n2
+              - img "Новые поступления в разделе Империя" [ref=e165]
+              - generic [ref=e166]:
+                - generic [ref=e167]: 08.05.2024
+                - heading "Новые поступления в разделе Империя" [level=3] [ref=e168]
+            - link "Правила работы закрытого раздела 05.05.2024 Правила работы закрытого раздела" [ref=e169] [cursor=pointer]:
+              - /url: /Program%20Files/Git/news/n3
+              - img "Правила работы закрытого раздела" [ref=e171]
+              - generic [ref=e172]:
+                - generic [ref=e173]: 05.05.2024
+                - heading "Правила работы закрытого раздела" [level=3] [ref=e174]
+            - link "Открытие новых разделов Металлопластики 01.05.2024 Открытие новых разделов Металлопластики" [ref=e175] [cursor=pointer]:
+              - /url: /Program%20Files/Git/news/n4
+              - img "Открытие новых разделов Металлопластики" [ref=e177]
+              - generic [ref=e178]:
+                - generic [ref=e179]: 01.05.2024
+                - heading "Открытие новых разделов Металлопластики" [level=3] [ref=e180]
+  - region "Notifications (F8)":
+    - list

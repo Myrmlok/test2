@@ -129,7 +129,7 @@ function App() {
         <AuthProvider>
           <CartProvider>
             <ForumProvider>
-              <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, '')}>
+              <WouterRouter>
                 <AppRoutes />
               </WouterRouter>
             </ForumProvider>

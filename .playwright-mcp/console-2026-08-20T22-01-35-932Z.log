@@ -1,0 +1,17 @@
+[     520ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/Program%20Files/Git/node_modules/.vite/deps/react-dom_client.js?v=bc6e5e2c:17986
+[    1453ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-medieval.jpg:0
+[    1453ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-empire.jpg:0
+[    1453ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-udels.jpg:0
+[    1454ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-metal.jpg:0
+[    1495ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/auth/me:0
+[    1595ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.svg:0
+[    1619ms] [WARNING] Error while trying to use the following icon from the Manifest: http://localhost:3000/favicon.svg (Download error or resource isn't a valid image) @ http://localhost:3000/Program%20Files/Git/:0
+[   65644ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:3000/Program%20Files/Git/@vite/client:864
+[   67301ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/Program%20Files/Git/node_modules/.vite/deps/react-dom_client.js?v=bc6e5e2c:17986
+[   68548ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-medieval.jpg:0
+[   68556ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-empire.jpg:0
+[   68586ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/auth/me:0
+[   68647ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-metal.jpg:0
+[   68648ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-udels.jpg:0
+[   68694ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.svg:0
+[   68699ms] [WARNING] Error while trying to use the following icon from the Manifest: http://localhost:3000/favicon.svg (Download error or resource isn't a valid image) @ http://localhost:3000/Program%20Files/Git/:0

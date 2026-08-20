@@ -1,0 +1,5 @@
+- generic [active] [ref=f5e1]:
+  - text: The server is configured with a public base URL of /Program%20Files/Git/ - did you mean to visit
+  - link "/Program%20Files/Git/forum" [ref=f5e2] [cursor=pointer]:
+    - /url: /Program%20Files/Git/forum
+  - text: instead?

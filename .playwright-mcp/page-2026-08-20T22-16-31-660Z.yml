@@ -1,0 +1,92 @@
+- generic [ref=f20e2]:
+  - generic [ref=f20e3]:
+    - banner [ref=f20e4]:
+      - generic [ref=f20e5]:
+        - link "4BOR/ КЛУБ" [ref=f20e6] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=f20e7]:
+          - link "Каталог" [ref=f20e8] [cursor=pointer]:
+            - /url: /catalog
+          - link "Аукционы" [ref=f20e9] [cursor=pointer]:
+            - /url: /auctions
+          - link "Эксклюзивы" [ref=f20e10] [cursor=pointer]:
+            - /url: /exclusives
+          - link "Ликвидация" [ref=f20e11] [cursor=pointer]:
+            - /url: /liquidation
+          - link "Стикеры" [ref=f20e12] [cursor=pointer]:
+            - /url: /stickers
+          - link "Новости" [ref=f20e13] [cursor=pointer]:
+            - /url: /news
+          - link "Форум" [ref=f20e14] [cursor=pointer]:
+            - /url: /forum
+      - generic [ref=f20e15]:
+        - textbox "Поиск лотов..." [ref=f20e18]
+        - link [ref=f20e19] [cursor=pointer]:
+          - /url: /cart
+        - link "Гость" [ref=f20e24] [cursor=pointer]:
+          - /url: /profile
+    - generic [ref=f20e31]:
+      - main [ref=f20e32]:
+        - generic [ref=f20e33]:
+          - generic [ref=f20e34]:
+            - heading "Эксклюзивы от дилеров" [level=1] [ref=f20e35]
+            - paragraph [ref=f20e36]: Закрытый раздел с лотами по фиксированной цене
+          - button "Все тематики" [ref=f20e38]
+      - complementary [ref=f20e42]:
+        - generic [ref=f20e43]:
+          - generic [ref=f20e44]:
+            - heading "Сейчас в клубе" [level=3] [ref=f20e45]
+            - generic [ref=f20e46]: "24"
+          - generic [ref=f20e51]:
+            - heading "Время (МСК)" [level=3] [ref=f20e52]
+            - generic [ref=f20e56]: 01:16:31
+        - generic [ref=f20e57]:
+          - heading "Последняя активность" [level=3] [ref=f20e58]
+          - generic [ref=f20e61]:
+            - generic [ref=f20e62]:
+              - paragraph [ref=f20e63]: Дилер D*** сделал ставку на 5 копеек
+              - paragraph [ref=f20e64]: 2 мин назад
+            - generic [ref=f20e65]:
+              - paragraph [ref=f20e66]: Коллекционер K*** зарегистрировался
+              - paragraph [ref=f20e67]: 15 мин назад
+            - generic [ref=f20e68]:
+              - paragraph [ref=f20e69]: Новый лот в разделе Ликвидация
+              - paragraph [ref=f20e70]: 1 час назад
+            - generic [ref=f20e71]:
+              - paragraph [ref=f20e72]: Дилер A*** купил лот по блиц-цене
+              - paragraph [ref=f20e73]: 2 часа назад
+            - generic [ref=f20e74]:
+              - paragraph [ref=f20e75]: Добавлен новый стикер
+              - paragraph [ref=f20e76]: 3 часа назад
+        - generic [ref=f20e77]:
+          - generic [ref=f20e78]:
+            - heading "Стикеры" [level=3] [ref=f20e79]
+            - link "Все" [ref=f20e80] [cursor=pointer]:
+              - /url: /stickers
+          - generic [ref=f20e81]:
+            - generic [ref=f20e82]:
+              - img "Sticker" [ref=f20e84]
+              - generic [ref=f20e85]:
+                - paragraph [ref=f20e86]: Куплю чешую Михаила Федоровича
+                - generic [ref=f20e87]: от 5 000 ₽
+                - button "Предложить" [ref=f20e88]
+            - generic [ref=f20e89]:
+              - img "Sticker" [ref=f20e91]
+              - generic [ref=f20e92]:
+                - paragraph [ref=f20e93]: Ищу рубли Анны Иоанновны
+                - generic [ref=f20e94]: от 100 000 ₽
+                - button "Предложить" [ref=f20e95]
+            - generic [ref=f20e96]:
+              - img "Sticker" [ref=f20e98]
+              - generic [ref=f20e99]:
+                - paragraph [ref=f20e100]: Нужна пластика 14 века
+                - generic [ref=f20e101]: от 15 000 ₽
+                - button "Предложить" [ref=f20e102]
+            - generic [ref=f20e103]:
+              - img "Sticker" [ref=f20e105]
+              - generic [ref=f20e106]:
+                - paragraph [ref=f20e107]: Куплю редкие уделы Твери
+                - generic [ref=f20e108]: от 30 000 ₽
+                - button "Предложить" [ref=f20e109]
+  - region "Notifications (F8)":
+    - list

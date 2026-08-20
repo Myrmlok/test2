@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4bor.club API Test</title>
+    <style>
+        body { font-family: system-ui; max-width: 800px; margin: 40px auto; padding: 20px; }
+        h1 { color: #0F172A; }
+        .endpoint { background: #F1F5F9; padding: 15px; margin: 10px 0; border-radius: 8px; }
+        .method { display: inline-block; padding: 4px 8px; border-radius: 4px; font-weight: bold; color: white; font-size: 12px; }
+        .get { background: #22C55E; }
+        .post { background: #3B82F6; }
+        .patch { background: #F59E0B; }
+        .delete { background: #EF4444; }
+        button { background: #0F172A; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; margin: 5px; }
+        button:hover { background: #1E293B; }
+        pre { background: #1E293B; color: #F8FAFC; padding: 15px; border-radius: 6px; overflow-x: auto; }
+        .status { padding: 10px; border-radius: 6px; margin: 10px 0; }
+        .success { background: #D1FAE5; color: #065F46; }
+        .error { background: #FEE2E2; color: #991B1B; }
+    </style>
+</head>
+<body>
+    <h1>4bor.club API — тесты</h1>
+
+    <div id="status"></div>
+
+    <h2>Быстрый тест</h2>
+    <button onclick="testHealth()">Health Check</button>
+    <button onclick="testThemes()">Получить тематики</button>
+    <button onclick="testLogin()">Войти (dealer_ivanov)</button>
+    <button onclick="testMe()">Текущий пользователь</button>
+    <button onclick="testLogout()">Выйти</button>
+
+    <h2>Ответ</h2>
+    <pre id="output">Нажмите на кнопку выше</pre>
+
+    <h2>Доступные endpoints</h2>
+
+    <div class="endpoint">
+        <span class="method get">GET</span> <strong>/api/health</strong>
+        <p>Проверка работоспособности API</p>
+    </div>
+
+    <div class="endpoint">
+        <span class="method post">POST</span> <strong>/api/auth/login</strong>
+        <p>Вход: {"login": "dealer_ivanov", "password": "123"}</p>
+    </div>
+
+    <div class="endpoint">
+        <span class="method get">GET</span> <strong>/api/auth/me</strong>
+        <p>Получить текущего пользователя</p>
+    </div>
+
+    <div class="endpoint">
+        <span class="method get">GET</span> <strong>/api/catalog/themes</strong>
+        <p>Список всех тематик</p>
+    </div>
+
+    <div class="endpoint">
+        <span class="method get">GET</span> <strong>/api/lots</strong>
+        <p>Список лотов (query: section, themeId, groupId)</p>
+    </div>
+
+    <div class="endpoint">
+        <span class="method get">GET</span> <strong>/api/forum/categories</strong>
+        <p>Список категорий форума</p>
+    </div>
+
+    <script>
+        const output = document.getElementById('output');
+        const statusDiv = document.getElementById('status');
+
+        function showStatus(message, isError = false) {
+            statusDiv.innerHTML = `<div class="status ${isError ? 'error' : 'success'}">${message}</div>`;
+            setTimeout(() => statusDiv.innerHTML = '', 3000);
+        }
+
+        async function makeRequest(url, options = {}) {
+            try {
+                output.textContent = 'Загрузка...';
+                const response = await fetch(url, {
+                    ...options,
+                    credentials: 'include',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        ...options.headers
+                    }
+                });
+
+                const text = await response.text();
+                let data;
+                try {
+                    data = JSON.parse(text);
+                } catch {
+                    data = text;
+                }
+
+                output.textContent = JSON.stringify(data, null, 2);
+                showStatus(`${response.status} ${response.statusText}`, !response.ok);
+                return data;
+            } catch (error) {
+                output.textContent = `Ошибка: ${error.message}`;
+                showStatus(`Ошибка: ${error.message}`, true);
+            }
+        }
+
+        async function testHealth() {
+            await makeRequest('/api/health');
+        }
+
+        async function testThemes() {
+            await makeRequest('/api/catalog/themes');
+        }
+
+        async function testLogin() {
+            await makeRequest('/api/auth/login', {
+                method: 'POST',
+                body: JSON.stringify({
+                    login: 'dealer_ivanov',
+                    password: '123'
+                })
+            });
+        }
+
+        async function testMe() {
+            await makeRequest('/api/auth/me');
+        }
+
+        async function testLogout() {
+            await makeRequest('/api/auth/logout', { method: 'POST' });
+        }
+
+        // Auto-test on load
+        window.addEventListener('load', testHealth);
+    </script>
+</body>
+</html>

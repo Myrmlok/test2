@@ -1,0 +1,17 @@
+[    1101ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/Program%20Files/Git/node_modules/.vite/deps/react-dom_client.js?v=ffa24507:17986
+[    1188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-medieval.jpg:0
+[    1188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-empire.jpg:0
+[    1188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-metal.jpg:0
+[    1189ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-udels.jpg:0
+[    1191ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/auth/me:0
+[    1215ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-medieval.jpg:0
+[    1215ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-udels.jpg:0
+[    1215ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-metal.jpg:0
+[    1215ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-east.jpg:0
+[    1216ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/theme-empire.jpg:0
+[    1216ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/news-1.jpg:0
+[    1216ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/news-2.jpg:0
+[    1216ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/news-3.jpg:0
+[    1216ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/news-4.jpg:0
+[    1439ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.svg:0
+[    1439ms] [WARNING] Error while trying to use the following icon from the Manifest: http://localhost:3000/favicon.svg (Download error or resource isn't a valid image) @ http://localhost:3000/Program%20Files/Git/:0

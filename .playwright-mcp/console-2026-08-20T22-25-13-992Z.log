@@ -1,0 +1,10 @@
+[     593ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bc6e5e2c:17986
+[     760ms] [ERROR] Received NaN for the `%s` attribute. If this is expected, cast the value to a string. children @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bc6e5e2c:2394
+[     799ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/forum/bookmarks:0
+[    1894ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/forum/bookmarks:0
+[    3969ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/forum/bookmarks:0
+[    8367ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/forum/bookmarks:0
+[  154008ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/forum/bookmarks:0
+[  155023ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/forum/bookmarks:0
+[  157342ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/forum/bookmarks:0
+[  161360ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/forum/bookmarks:0

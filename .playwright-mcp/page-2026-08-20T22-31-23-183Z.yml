@@ -1,0 +1,90 @@
+- generic [ref=f10e2]:
+  - generic [ref=f10e3]:
+    - banner [ref=f10e4]:
+      - generic [ref=f10e5]:
+        - link "4BOR/ КЛУБ" [ref=f10e6] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=f10e7]:
+          - link "Каталог" [ref=f10e8] [cursor=pointer]:
+            - /url: /catalog
+          - link "Аукционы" [ref=f10e9] [cursor=pointer]:
+            - /url: /auctions
+          - link "Эксклюзивы" [ref=f10e10] [cursor=pointer]:
+            - /url: /exclusives
+          - link "Ликвидация" [ref=f10e11] [cursor=pointer]:
+            - /url: /liquidation
+          - link "Стикеры" [ref=f10e12] [cursor=pointer]:
+            - /url: /stickers
+          - link "Новости" [ref=f10e13] [cursor=pointer]:
+            - /url: /news
+          - link "Форум" [ref=f10e14] [cursor=pointer]:
+            - /url: /forum
+      - generic [ref=f10e15]:
+        - textbox "Поиск лотов..." [ref=f10e18]
+        - link [ref=f10e19] [cursor=pointer]:
+          - /url: /cart
+        - link "dealer_ivanov Дилер" [ref=f10e24] [cursor=pointer]:
+          - /url: /profile
+          - generic [ref=f10e25]:
+            - generic [ref=f10e26]: dealer_ivanov
+            - generic [ref=f10e27]: Дилер
+    - generic [ref=f10e32]:
+      - main [ref=f10e33]
+      - complementary [ref=f10e37]:
+        - generic [ref=f10e38]:
+          - generic [ref=f10e39]:
+            - heading "Сейчас в клубе" [level=3] [ref=f10e40]
+            - generic [ref=f10e41]: "24"
+          - generic [ref=f10e46]:
+            - heading "Время (МСК)" [level=3] [ref=f10e47]
+            - generic [ref=f10e51]: 01:31:22
+        - generic [ref=f10e52]:
+          - heading "Последняя активность" [level=3] [ref=f10e53]
+          - generic [ref=f10e56]:
+            - generic [ref=f10e57]:
+              - paragraph [ref=f10e58]: Дилер D*** сделал ставку на 5 копеек
+              - paragraph [ref=f10e59]: 2 мин назад
+            - generic [ref=f10e60]:
+              - paragraph [ref=f10e61]: Коллекционер K*** зарегистрировался
+              - paragraph [ref=f10e62]: 15 мин назад
+            - generic [ref=f10e63]:
+              - paragraph [ref=f10e64]: Новый лот в разделе Ликвидация
+              - paragraph [ref=f10e65]: 1 час назад
+            - generic [ref=f10e66]:
+              - paragraph [ref=f10e67]: Дилер A*** купил лот по блиц-цене
+              - paragraph [ref=f10e68]: 2 часа назад
+            - generic [ref=f10e69]:
+              - paragraph [ref=f10e70]: Добавлен новый стикер
+              - paragraph [ref=f10e71]: 3 часа назад
+        - generic [ref=f10e72]:
+          - generic [ref=f10e73]:
+            - heading "Стикеры" [level=3] [ref=f10e74]
+            - link "Все" [ref=f10e75] [cursor=pointer]:
+              - /url: /stickers
+          - generic [ref=f10e76]:
+            - generic [ref=f10e77]:
+              - img "Sticker" [ref=f10e79]
+              - generic [ref=f10e80]:
+                - paragraph [ref=f10e81]: Куплю чешую Михаила Федоровича
+                - generic [ref=f10e82]: от 5 000 ₽
+                - button "Предложить" [ref=f10e83]
+            - generic [ref=f10e84]:
+              - img "Sticker" [ref=f10e86]
+              - generic [ref=f10e87]:
+                - paragraph [ref=f10e88]: Ищу рубли Анны Иоанновны
+                - generic [ref=f10e89]: от 100 000 ₽
+                - button "Предложить" [ref=f10e90]
+            - generic [ref=f10e91]:
+              - img "Sticker" [ref=f10e93]
+              - generic [ref=f10e94]:
+                - paragraph [ref=f10e95]: Нужна пластика 14 века
+                - generic [ref=f10e96]: от 15 000 ₽
+                - button "Предложить" [ref=f10e97]
+            - generic [ref=f10e98]:
+              - img "Sticker" [ref=f10e100]
+              - generic [ref=f10e101]:
+                - paragraph [ref=f10e102]: Куплю редкие уделы Твери
+                - generic [ref=f10e103]: от 30 000 ₽
+                - button "Предложить" [ref=f10e104]
+  - region "Notifications (F8)":
+    - list

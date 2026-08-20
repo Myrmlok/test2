@@ -1,0 +1,101 @@
+- generic [ref=f7e2]:
+  - generic [ref=f7e3]:
+    - banner [ref=f7e4]:
+      - generic [ref=f7e5]:
+        - link "4BOR/ КЛУБ" [ref=f7e6] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=f7e7]:
+          - link "Каталог" [ref=f7e8] [cursor=pointer]:
+            - /url: /catalog
+          - link "Аукционы" [ref=f7e9] [cursor=pointer]:
+            - /url: /auctions
+          - link "Эксклюзивы" [ref=f7e10] [cursor=pointer]:
+            - /url: /exclusives
+          - link "Ликвидация" [ref=f7e11] [cursor=pointer]:
+            - /url: /liquidation
+          - link "Стикеры" [ref=f7e12] [cursor=pointer]:
+            - /url: /stickers
+          - link "Новости" [ref=f7e13] [cursor=pointer]:
+            - /url: /news
+          - link "Форум" [ref=f7e14] [cursor=pointer]:
+            - /url: /forum
+      - generic [ref=f7e15]:
+        - textbox "Поиск лотов..." [ref=f7e18]
+        - link [ref=f7e19] [cursor=pointer]:
+          - /url: /cart
+        - link "dealer_ivanov Дилер" [ref=f7e24] [cursor=pointer]:
+          - /url: /profile
+          - generic [ref=f7e25]:
+            - generic [ref=f7e26]: dealer_ivanov
+            - generic [ref=f7e27]: Дилер
+    - generic [ref=f7e32]:
+      - main [ref=f7e33]:
+        - generic [ref=f7e34]:
+          - generic [ref=f7e35]:
+            - heading "Эксклюзивы от дилеров" [level=1] [ref=f7e36]
+            - paragraph [ref=f7e37]: Закрытый раздел с лотами по фиксированной цене
+          - generic [ref=f7e38]:
+            - button "Все тематики" [ref=f7e39]
+            - button "Средневековые монеты" [ref=f7e40]
+            - button "Уделы" [ref=f7e41]
+            - button "Металлопластика" [ref=f7e42]
+            - button "Российская Империя" [ref=f7e43]
+            - button "Восток" [ref=f7e44]
+      - complementary [ref=f7e48]:
+        - generic [ref=f7e49]:
+          - generic [ref=f7e50]:
+            - heading "Сейчас в клубе" [level=3] [ref=f7e51]
+            - generic [ref=f7e52]: "24"
+          - generic [ref=f7e57]:
+            - heading "Время (МСК)" [level=3] [ref=f7e58]
+            - generic [ref=f7e62]: 01:29:59
+        - generic [ref=f7e63]:
+          - heading "Последняя активность" [level=3] [ref=f7e64]
+          - generic [ref=f7e67]:
+            - generic [ref=f7e68]:
+              - paragraph [ref=f7e69]: Дилер D*** сделал ставку на 5 копеек
+              - paragraph [ref=f7e70]: 2 мин назад
+            - generic [ref=f7e71]:
+              - paragraph [ref=f7e72]: Коллекционер K*** зарегистрировался
+              - paragraph [ref=f7e73]: 15 мин назад
+            - generic [ref=f7e74]:
+              - paragraph [ref=f7e75]: Новый лот в разделе Ликвидация
+              - paragraph [ref=f7e76]: 1 час назад
+            - generic [ref=f7e77]:
+              - paragraph [ref=f7e78]: Дилер A*** купил лот по блиц-цене
+              - paragraph [ref=f7e79]: 2 часа назад
+            - generic [ref=f7e80]:
+              - paragraph [ref=f7e81]: Добавлен новый стикер
+              - paragraph [ref=f7e82]: 3 часа назад
+        - generic [ref=f7e83]:
+          - generic [ref=f7e84]:
+            - heading "Стикеры" [level=3] [ref=f7e85]
+            - link "Все" [ref=f7e86] [cursor=pointer]:
+              - /url: /stickers
+          - generic [ref=f7e87]:
+            - generic [ref=f7e88]:
+              - img "Sticker" [ref=f7e90]
+              - generic [ref=f7e91]:
+                - paragraph [ref=f7e92]: Куплю чешую Михаила Федоровича
+                - generic [ref=f7e93]: от 5 000 ₽
+                - button "Предложить" [ref=f7e94]
+            - generic [ref=f7e95]:
+              - img "Sticker" [ref=f7e97]
+              - generic [ref=f7e98]:
+                - paragraph [ref=f7e99]: Ищу рубли Анны Иоанновны
+                - generic [ref=f7e100]: от 100 000 ₽
+                - button "Предложить" [ref=f7e101]
+            - generic [ref=f7e102]:
+              - img "Sticker" [ref=f7e104]
+              - generic [ref=f7e105]:
+                - paragraph [ref=f7e106]: Нужна пластика 14 века
+                - generic [ref=f7e107]: от 15 000 ₽
+                - button "Предложить" [ref=f7e108]
+            - generic [ref=f7e109]:
+              - img "Sticker" [ref=f7e111]
+              - generic [ref=f7e112]:
+                - paragraph [ref=f7e113]: Куплю редкие уделы Твери
+                - generic [ref=f7e114]: от 30 000 ₽
+                - button "Предложить" [ref=f7e115]
+  - region "Notifications (F8)":
+    - list
